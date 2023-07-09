@@ -1,0 +1,276 @@
+import { formatDate } from "../utils/authUtils";
+/**
+ * User Database can be added here.
+ * You can add default users of your wish with different attributes
+ * */
+
+export const users = [
+  {
+    _id: "1",
+    firstName: "Adarsh",
+    lastName: "Balika",
+    user_email: "adarshbalika@socialhub.com",
+    username: "adarshbalika",
+    password: "adarshbalika",
+    createdAt: formatDate(),
+    updatedAt: formatDate(),
+    profile_pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDln-yqZVXyNMyoN_I5-N_C9Jir-cV_de-peChMRBkctNR_1MtYZUaN_OuDecv8eGEG2Q&usqp=CAU",
+    cover_pic: "",
+    link: "https://github.com/shirshakmaurya/",
+    bio: "Software Developer",
+    followers: [
+      {
+        _id: "2",
+        firstName: "Harry",
+        lastName: "Potter",
+        username: "harrypotter",
+        profile_pic: "https://howtodrawforkids.com/wp-content/uploads/2021/11/Harry-Potter-drawing-tutorial.jpg",
+      },
+      {
+        _id: "3",
+        firstName: "Ron",
+        lastName: "Weasley",
+        username: "ronweasley",
+        profile_pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALdQb3Jm6HLa04sA-warNlUQesnI253kxNQ&usqp=CAU",
+      }
+    ],
+    following: [
+      {
+        _id: "2",
+        firstName: "Harry",
+        lastName: "Potter",
+        username: "harrypotter",
+        profile_pic: "https://howtodrawforkids.com/wp-content/uploads/2021/11/Harry-Potter-drawing-tutorial.jpg",
+      },
+      {
+        _id: "3",
+        firstName: "Ron",
+        lastName: "Weasley",
+        username: "ronweasley",
+        profile_pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALdQb3Jm6HLa04sA-warNlUQesnI253kxNQ&usqp=CAU",
+      }
+    ],
+    bookmarks: [],
+    id: "1"
+  },
+  {
+    _id: "2",
+    firstName: "Harry",
+    lastName: "Potter",
+    user_email: "harrypotter@socialhub.com",
+    username: "harrypotter",
+    password: "harry",
+    createdAt: formatDate(),
+    updatedAt: formatDate(),
+    profile_pic: "https://howtodrawforkids.com/wp-content/uploads/2021/11/Harry-Potter-drawing-tutorial.jpg",
+    cover_pic: "",
+    link: "https://harrypotter.com",
+    bio: "wizard",
+    followers: [
+      {
+        _id: "1",
+        firstName: "Adarsh",
+        lastName: "Balika",
+        username: "adarshbalika",
+        profile_pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDln-yqZVXyNMyoN_I5-N_C9Jir-cV_de-peChMRBkctNR_1MtYZUaN_OuDecv8eGEG2Q&usqp=CAU",
+      },
+      {
+        _id: "5",
+        firstName: "Rubeus",
+        lastName: "Hagrid",
+        username: "hagrid",
+        profile_pic: "https://assets.telegraphindia.com/telegraph/2022/Oct/1665822868_robbie-coltrane-cms-4-1.jpg",
+      }
+    ],
+    following: [
+      {
+        _id: "1",
+        firstName: "Adarsh",
+        lastName: "Balika",
+        username: "adarshbalika",
+        profile_pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDln-yqZVXyNMyoN_I5-N_C9Jir-cV_de-peChMRBkctNR_1MtYZUaN_OuDecv8eGEG2Q&usqp=CAU",
+      },
+      {
+        _id: "5",
+        firstName: "Rubeus",
+        lastName: "Hagrid",
+        username: "hagrid",
+        profile_pic: "https://assets.telegraphindia.com/telegraph/2022/Oct/1665822868_robbie-coltrane-cms-4-1.jpg",
+      }
+    ],
+    bookmarks: [],
+  },
+  {
+    _id: "3",
+    firstName: "Ron",
+    lastName: "Weasley",
+    user_email: "ronweasley@socialhub.com",
+    username: "ronweasley",
+    password: "ron",
+    createdAt: formatDate(),
+    updatedAt: formatDate(),
+    profile_pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALdQb3Jm6HLa04sA-warNlUQesnI253kxNQ&usqp=CAU",
+    cover_pic: "",
+    link: "https://ron@wizard.com",
+    bio: "wizard",
+    followers: [
+      {
+        _id: "4",
+        firstName: "Hermione",
+        lastName: "Granger",
+        username: "granger",
+        profile_pic: "https://i.insider.com/60772a1742061500181757bc?width=700",
+      },
+      {
+        _id: "5",
+        firstName: "Rubeus",
+        lastName: "Hagrid",
+        username: "hagrid",
+        profile_pic: "https://assets.telegraphindia.com/telegraph/2022/Oct/1665822868_robbie-coltrane-cms-4-1.jpg",
+      },
+      {
+        _id: "1",
+        firstName: "Adarsh",
+        lastName: "Balika",
+        username: "adarshbalika",
+        profile_pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDln-yqZVXyNMyoN_I5-N_C9Jir-cV_de-peChMRBkctNR_1MtYZUaN_OuDecv8eGEG2Q&usqp=CAU",
+      }
+    ],
+    following: [
+      {
+        _id: "1",
+        firstName: "Adarsh",
+        lastName: "Balika",
+        username: "adarshbalika",
+        profile_pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDln-yqZVXyNMyoN_I5-N_C9Jir-cV_de-peChMRBkctNR_1MtYZUaN_OuDecv8eGEG2Q&usqp=CAU",
+      },
+      {
+        _id: "4",
+        firstName: "Hermione",
+        lastName: "Granger",
+        username: "granger",
+        profile_pic: "https://i.insider.com/60772a1742061500181757bc?width=700",
+      },
+      {
+        _id: "6",
+        firstName: "Albus",
+        lastName: "Dumbledore",
+        username: "albus",
+        profile_pic: "https://upload.wikimedia.org/wikipedia/en/f/fe/Dumbledore_and_Elder_Wand.JPG",
+      },
+      {
+        _id: "5",
+        firstName: "Rubeus",
+        lastName: "Hagrid",
+        username: "hagrid",
+        profile_pic: "https://assets.telegraphindia.com/telegraph/2022/Oct/1665822868_robbie-coltrane-cms-4-1.jpg",
+      },
+    ],
+    bookmarks: [],
+  },
+  {
+    _id: "4",
+    firstName: "Hermione",
+    lastName: "Granger",
+    username: "granger",
+    user_email: "hermionegranger@socialhub.com",
+    password: "hermione",
+    createdAt: formatDate(),
+    updatedAt: formatDate(),
+    profile_pic: "https://i.insider.com/60772a1742061500181757bc?width=700",
+    cover_pic: "",
+    link: "https://hermionegranger.social",
+    bio: "Best wizard",
+    followers: [
+      {
+        _id: "3",
+        firstName: "Ron",
+        lastName: "Weasley",
+        username: "ronweasley",
+        pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALdQb3Jm6HLa04sA-warNlUQesnI253kxNQ&usqp=CAU",
+      },
+    ],
+    following: [
+      {
+        _id: "3",
+        firstName: "Ron",
+        lastName: "Weasley",
+        username: "ronweasley",
+        pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALdQb3Jm6HLa04sA-warNlUQesnI253kxNQ&usqp=CAU",
+      },
+    ],
+    bookmarks: [],
+  },
+  {
+    _id: "5",
+    firstName: "Rubeus",
+    lastName: "Hagrid",
+    username: "hagrid",
+    user_email: "hagrid@socialhub.com",
+    password: "hagrid",
+    createdAt: formatDate(),
+    updatedAt: formatDate(),
+    profile_pic: "https://assets.telegraphindia.com/telegraph/2022/Oct/1665822868_robbie-coltrane-cms-4-1.jpg",
+    cover_pic: "",
+    link: "https://hagrid.wizard",
+    bio: "wizard, animal lover",
+    followers: [
+      {
+        _id: "2",
+        firstName: "Harry",
+        lastName: "Potter",
+        username: "harrypotter",
+        profile_pic: "https://howtodrawforkids.com/wp-content/uploads/2021/11/Harry-Potter-drawing-tutorial.jpg",
+      },
+      {
+        _id: "3",
+        firstName: "Ron",
+        lastName: "Weasley",
+        username: "ronweasley",
+        profile_pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALdQb3Jm6HLa04sA-warNlUQesnI253kxNQ&usqp=CAU",
+      },
+    ],
+    following: [
+      {
+        _id: "2",
+        firstName: "Harry",
+        lastName: "Potter",
+        username: "harrypotter",
+        pic: "https://howtodrawforkids.com/wp-content/uploads/2021/11/Harry-Potter-drawing-tutorial.jpg"
+      },
+      {
+        _id: "3",
+        firstName: "Ron",
+        lastName: "Weasley",
+        username: "ronweasley",
+        pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALdQb3Jm6HLa04sA-warNlUQesnI253kxNQ&usqp=CAU",
+      },
+    ],
+    bookmarks: [],
+  },
+  {
+    _id: "6",
+    firstName: "Albus",
+    lastName: "Dumbledore",
+    username: "albus",
+    user_email: "albus@social.com",
+    password: "albus",
+    createdAt: formatDate(),
+    updatedAt: formatDate(),
+    profile_pic: "https://upload.wikimedia.org/wikipedia/en/f/fe/Dumbledore_and_Elder_Wand.JPG",
+    cover_pic: "",
+    link: "https://albus.wizard",
+    bio: "Headmaster",
+    followers: [
+      {
+        _id: "3",
+        firstName: "Ron",
+        lastName: "Weasley",
+        username: "ronweasley",
+        pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALdQb3Jm6HLa04sA-warNlUQesnI253kxNQ&usqp=CAU",
+      },
+    ],
+    following: [],
+    bookmarks: [],
+  },
+];

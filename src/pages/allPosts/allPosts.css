@@ -1,0 +1,74 @@
+@media only screen and (max-width: 450px) {
+    .explore-page .header {
+        width: 100% !important;
+    }
+}
+
+.explore-page .header {
+    position: fixed;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.92);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 20px -10px;
+}
+
+.explore-page .header .heading {
+    font-size: 1.75rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.explore-page .header .search-bar-container .search {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    outline: 0;
+    border: 0;
+    border-top: .1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(255, 255, 255, 0.3);
+    /* margin: 0.25rem auto 0.5rem; */
+}
+
+.explore-page .no-post-div {
+    padding-top: 7rem;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-page .no-post-div p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.explore-page .post-container {
+    padding-top: 7rem;
+}
+
+.explore-page .post-container .not-found {
+    margin-top: -7rem;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.explore-page .post-container .not-found p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.explore-page .post-container .loading-container {
+    margin-bottom: 1.5rem;
+}
+
+.explore-page .post-container .loading-container p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+}

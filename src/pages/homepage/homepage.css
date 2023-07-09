@@ -1,0 +1,115 @@
+@media only screen and (max-width: 450px) {
+    .homepage .header {
+        width: 100% !important;
+    }
+    .homepage .header .declaration {
+        left: 0.5rem !important;
+        font-size: 0.75rem !important;
+        width: 2.5rem;
+    }
+}
+
+.homepage .header {
+    position: fixed;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.92);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 20px -10px;
+    padding: 0.5rem;
+    top: 0;
+}
+
+.homepage .header .declaration {
+    position: absolute;
+    left: 1rem;
+    top: 0.65rem; 
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.homepage .header .heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #740002;
+}
+
+.homepage .header .sort {
+    position: absolute;
+    right: 1rem;
+    top: 0.65rem;   
+}
+
+.homepage .header .sort .menu-container .icon {
+    background-color: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.homepage .header .sort .menu-container .menu {
+    position: absolute;
+    background-color: #fff;
+    margin-top: 0rem;
+    margin-left: -5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0 8px;
+    padding: 0.5rem;
+    border-radius: 0.35rem;
+    transition: 0.5s;
+    width: rem;
+}
+
+.homepage .header .sort .menu-container .menu input {
+    display: none;
+}
+
+.homepage .header .sort .menu-container .menu label {
+    padding: 0.75rem;
+    border-radius: 0.35rem;
+    display: block;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.5s;
+}
+
+.homepage .header .sort .menu-container .menu label:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.homepage .header .sort .menu-container .menu .active-style {
+    background-color: #740002;
+    color: #fff;
+}
+
+.homepage .no-post-div {
+    padding-top: 7rem;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    color: #740002;
+}
+
+.homepage .no-post-div p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.homepage .post-container {
+    padding-top: 3.8rem;
+}
+
+.homepage .post-container .loading-container {
+    margin-bottom: 1.5rem;
+}
+
+.homepage .post-container .loading-container p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+}
